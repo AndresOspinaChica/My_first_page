@@ -1,0 +1,109 @@
+* {
+    margin: 0; /*así se puede resetear la margen y paddin por defecto para continuar con la edición*/
+    padding: 0;
+    color: aliceblue;
+}
+
+h1{
+    font: bold 20px sans-serif;
+}
+
+header, nav, article, aside, footer{
+    display: block; /*sirve para separar por bloque lo que se haya seleccionado*/
+    
+}
+
+body{
+    text-align: center;
+}
+
+.agrupar{
+    background: #4B9C95;
+    width: 900px;
+    margin: 20px auto;
+    padding: 1px;
+    /*margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 200px;*/
+
+}
+
+.estilo_header {
+    background-color: #141B6B; /*colocar color de forma hexadecimal para crear color personalizado*/
+    padding: 10px;
+    border: 1px solid white;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.estilo_header h1 {
+    text-align: left; /*sirve para alinear el texto, en este caso hacia la izquierda, y tambien se está haciendo enfasis en el h1 de la cabecera*/
+}
+
+.menu {
+    background-color: #141B6B; /*colocar color de forma hexadecimal para crear color personalizado*/
+    padding: 10px;
+    border: 1px solid white; /* genera borde de 1px de ancho, solido, color blanco*/
+    color: aliceblue; /*cambiar color de letra*/
+    text-align: left;
+}
+
+.menu li{
+    list-style: none;   
+    padding: 3px; /*agrega espacio al rededor*/
+    font: bold 15px verdana; /*cambia letra: negrita tamaño tipo de fuente*/
+    display: inline-block;
+    
+}
+
+.seccion {
+    margin: 20px; /*Crea margen*/
+    width: 600px;
+    float: left; /*hace que flote el elemento*/
+}
+
+.aside li {
+        list-style: none;
+}
+
+.aside{
+    width: 240px; /*sirve para dar ancho al elemento*/
+    border: 1px solid white; /*crea borde*/
+    float: left; /*hace que flote el elemento*/
+    margin: 20px 0;
+    background: #141B6B;
+    padding: 3px;
+}
+
+.pie {
+    clear: both; /*vuelve a la normalidad del footer*/
+    padding: 20px;
+    background: #141B6B;
+    border: 1px solid white;
+}
+
+article {
+    background: #141B6B;
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+article p{
+    text-align: justify;
+    margin: 10px;
+}
+
+article footer {
+    text-align: left;
+}
+
+img{
+    width: 150px;
+    margin: 10px;
+}
+
+
+
+

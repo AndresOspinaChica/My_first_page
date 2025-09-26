@@ -1,0 +1,70 @@
+ <!DOCTYPE html> <!--Para hacer saber la versión del html (versión 5) -->
+
+<html lang="es"> <!--etiqueta html es el contenedor principal de la pagina, se le añadió un atributo para determinar que la página está en español -->
+    <head> <!-- etiqueta head, se usa para crear meta datos, los cuales son utiles para describir la página para los motores de busqueda -->
+        <meta charset="utf-8"/> <!-- esta etiqueta asegura que los caracteres se vean bien y se muestren en todos los navegadores -->
+        <title>Primer Pagina Web</title> <!-- etiqueta title sirve para colocar el titulo de la pagina (el que se ve en la pestaña) -->
+        <meta name="description" content="Mi primer pagina"/> <!-- atributo permite dar un resumen conciso de la página, es el resumen que aparece debajo de la pagina en los buscadores -->
+        <meta name="author" content="Andres Ospina"/> <!-- Sirve para especificar el autor del documento -->
+        <meta name="keywords" content="Mi primer pagina, pagina web"/> <!-- sirve para dar palabras claves a la pagina -->
+        <link rel="stylesheet" href="estilos.css"> <!-- sirve para enlazar el documento HTML con el CSS  -->
+    </head>
+    <body>
+        <div class="agrupar"> <!-- etiqueta div sirve para agrupar, y se crea clase para  usar como identificador para ser usado despues en CSS-->
+            <header class="estilo_header"> <!-- etiqueda usada para crear cabecera de la pagina -->
+                <h1>Mi página web</h1>  <!-- Sirve para colocar el titulo principal de la pagina, va desde h1 hasta h6 -->
+            </header>
+
+            <nav class="menu"> <!-- sirve para crear una navegación y que los motores de busqueda lo interpreten asi -->
+                <ul> <!-- sirve para crear lista de items donde su orden no importa -->
+                    <li>Principal</li> <!-- ul sirve para definir un item de la lista -->
+                    <li>Ayuda</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+
+            <section class="seccion">
+                <article>
+                    <time datetime="23/09/2025">publicado el 23/09/2025</time>
+                    <hgroup>
+                        <h2>Primer parrafo</h2>
+                        <h3>Subtitulo 1</h3>
+                    </hgroup>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto enim dolorem sequi molestiae earum sapiente perspiciatis nemo cum debitis cupiditate quas voluptatibus repellat eum repellendus sed, facere at, minima numquam.</p>
+                    <address>
+                        <a href="http://google.com">Ingresa a Google</a>
+                    </address>
+                    <img src="Images/rick.png">
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                </article>
+                <article>
+                    <time datetime="23/09/2025">publicado el 23/09/2025</time>
+                    <hgroup>
+                        <h2>Segundo parrafo</h2>
+                        <h3>Subtitulo 2</h3>
+                    </hgroup>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus vitae explicabo quod, aliquid sit provident ea nostrum, reprehenderit cum, praesentium aut facere adipisci nobis voluptas at ab ad inventore dicta?</p>
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                </article>
+            </section>
+
+            <aside class="aside">
+                <ul>
+                    <li>Archivo</li>
+                    <li>Acerca de</li>
+                </ul>
+            </aside>
+
+            <footer class="pie">
+                Derechos reservados 2025
+            </footer>
+        </div>
+    </body>
+</html>
+
+
+
